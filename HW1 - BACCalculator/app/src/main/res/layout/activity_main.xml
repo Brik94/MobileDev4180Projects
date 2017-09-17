@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+/**
+ * Assignment #: HW1
+ * File name: activity_main.xml
+ * Full name: Brianna Kirkpatrick, Kevin Heu
+ */
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bri.baccalculator.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/weightView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="19dp"
+            android:text="@string/weight"/>
+
+        <EditText
+            android:id="@+id/weightEdit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/weightView"
+            android:layout_alignBottom="@+id/weightView"
+            android:layout_toEndOf="@+id/weightView"
+            android:layout_toRightOf="@+id/weightView"
+            android:digits="0123456789."
+            android:hint="@string/weightHint"
+            android:inputType="number"
+            android:textSize="12dp"
+            android:visibility="visible"/>
+
+
+        <Switch
+            android:id="@+id/genderSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/gender"
+            android:textOff="@string/female"
+            android:textOn="@string/male"
+            android:textSize="14dp"
+            android:layout_alignBaseline="@+id/weightEdit"
+            android:layout_alignBottom="@+id/weightEdit"
+            android:layout_alignRight="@+id/resetButton"
+            android:layout_alignEnd="@+id/resetButton"/>
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/weightEdit"
+            android:layout_marginTop="27dp"
+            android:text="@string/save"/>
+
+        <TextView
+            android:id="@+id/drinkSizeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/weightView"
+            android:layout_alignStart="@+id/weightView"
+            android:layout_below="@+id/saveButton"
+            android:layout_marginTop="53dp"
+            android:text="@string/drinkSize"/>
+
+        <TextView
+            android:id="@+id/alcoholTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/drinkSizeTV"
+            android:layout_alignStart="@+id/drinkSizeTV"
+            android:layout_below="@+id/drinkSizeTV"
+            android:layout_marginTop="33dp"
+            android:text="@string/alcohol"/>
+
+        <RadioGroup
+            android:id="@+id/drinkSizeGroup"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/drinkSizeTV"
+            android:layout_toEndOf="@+id/drinkSizeTV"
+            android:layout_toRightOf="@+id/drinkSizeTV"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/oneRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/one"/>
+
+            <RadioButton
+                android:id="@+id/fiveRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/five"/>
+
+            <RadioButton
+                android:id="@+id/twelveRadio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/twelve"/>
+        </RadioGroup>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/alcoholTV"
+            android:layout_toRightOf="@+id/drinkSizeTV"
+            android:max="25"
+            android:progress="5"/>
+
+        <TextView
+            android:id="@+id/seekBarProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/seekBar"
+            android:layout_toEndOf="@+id/seekBar"
+            android:layout_toRightOf="@+id/seekBar"
+            android:text="@string/currentProgress"/>
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/weightEdit"
+            android:layout_alignRight="@+id/weightEdit"
+            android:layout_below="@+id/alcoholTV"
+            android:layout_marginTop="43dp"
+            android:text="@string/add"/>
+
+        <Button
+            android:id="@+id/resetButton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/addButton"
+            android:layout_alignBottom="@+id/addButton"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_toEndOf="@+id/weightEdit"
+            android:layout_toRightOf="@+id/weightEdit"
+            android:text="@string/reset"/>
+
+        <TextView
+            android:id="@+id/bacLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/addButton"
+            android:layout_alignStart="@+id/addButton"
+            android:layout_below="@+id/addButton"
+            android:layout_marginLeft="19dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="59dp"
+            android:text="@string/baclevel"
+            android:textSize="30sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:max="25"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/seekBar"
+            android:layout_alignLeft="@+id/addButton"
+            android:layout_alignRight="@+id/seekBar"
+            android:layout_alignStart="@+id/addButton"
+            android:layout_below="@+id/bacLevel"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bacLevel"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/bacLevel"
+            android:layout_marginBottom="11dp"
+            android:text="@string/status"/>
+
+        <TextView
+            android:id="@+id/newStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/status"
+            android:layout_alignBottom="@+id/status"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/status"
+            android:layout_toRightOf="@+id/status"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/safe"
+            android:textColor="@android:color/background_light"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

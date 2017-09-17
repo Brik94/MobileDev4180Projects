@@ -1,0 +1,35 @@
+<!--
+/**
+ * Assignment #: HW1
+ * File name: strings.xml
+ * Full name: Brianna Kirkpatrick, Kevin Heu
+ */
+-->
+
+<resources>
+    <string name="app_name">BAC Calculator</string>
+
+    <!-- labels -->
+    <string name="weight">Weight(lbs)</string>
+    <string name="weightHint">Enter weight</string>
+    <string name="drinkSize">Drink Size</string>
+    <string name="alcohol">Alcohol %</string>
+    <string name="baclevel">BAC Level: </string>
+    <string name="male">M</string>
+    <string name="female">F</string>
+    <string name="currentProgress">5%</string>
+
+    <string name="status">Your Status:</string>
+    <string name="safe">You\'re safe</string>
+    <string name="care">Be careful...</string>
+    <string name="limit">Over the limit!</string>
+
+    <!-- buttons -->
+    <string name="save">Save</string>
+    <string name="add">Add Drink</string>
+    <string name="reset">Reset</string>
+    <string name="gender">Gender</string>
+    <string name="one">1 oz</string>
+    <string name="five">5 oz</string>
+    <string name="twelve">12 oz</string>
+</resources>
