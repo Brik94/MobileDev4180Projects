@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">InClass03</string>
+    <string name="nameHint">Name</string>
+    <string name="emailHint">Email</string>
+    <string name="department">Department: </string>
+
+    <string name="sis">SIS</string>
+    <string name="cs">CS</string>
+    <string name="bio">BIO</string>
+    <string name="submit">Submit</string>
+
+    <string name="nameFieldText">Name</string>
+    <string name="emailFieldText">Email</string>
+    <string name="departmentText">Department:</string>
+    <string name="sisRadioText">SIS</string>
+    <string name="cisRadioText">CIS</string>
+    <string name="bioRadioText">BIO</string>
+    <string name="avatarSelectText">Select your avatar</string>
+    <string name="nameLabelText">Name:</string>
+    <string name="emailLabelText">Email:</string>
+    <string name="deptText">Department:</string>
+    <string name="statusText">I am ___!</string>
+    <string name="nameText">name</string>
+    <string name="emailText">email</string>
+    <string name="deptViewText">dept</string>
+    <string name="title_activity_select_avatar">SelectAvatarActivity</string>
+    <string name="title_activity_display">Display</string>
+</resources>
