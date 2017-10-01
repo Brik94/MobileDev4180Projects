@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/InClass03 - Profile Creator.iml" filepath="$PROJECT_DIR$/InClass03 - Profile Creator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HW2_Group5.iml" filepath="$PROJECT_DIR$/HW2_Group5.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
