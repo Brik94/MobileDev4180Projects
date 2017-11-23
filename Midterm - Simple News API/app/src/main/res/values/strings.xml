@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Midterm</string>
+    <string name="loadingSourcesText">Loading Sources</string>
+    <string name="loadingArticlesText" >Loading Articles</string>
+</resources>

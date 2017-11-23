@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HW05</string>
+    <string name="goButtonText">Go</string>
+    <string name="clearButtonText">Clear</string>
+    <string name="searchText">Search</string>
+    <string name="loadingText">Loading Podcasts</string>
+    <string name="titleText">Title</string>
+    <string name="updatedText">Updated on: DATE</string>
+    <string name="releasedText">Released on: DATE</string>
+    <string name="summaryLabelText">Summary</string>
+    <string name="summaryText">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb</string>
+</resources>

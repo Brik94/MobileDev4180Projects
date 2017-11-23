@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/messageLayoutText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/messageNameText"
+        android:layout_marginTop="19dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/messageNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/messageLayoutText"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:text="TextView"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messageTimeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/messageNameText"
+        android:layout_alignBottom="@+id/messageNameText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="97dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/messageDeleteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/messageTimeText"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="31dp"
+        android:text="Delete" />
+</RelativeLayout>

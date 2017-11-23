@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/listAvatarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="437dp"
+        android:layout_marginEnd="312dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginRight="312dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/select_avatar" />
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listAvatarView"
+        android:layout_alignStart="@+id/listAvatarView"
+        android:layout_alignTop="@+id/listAvatarView"
+        android:layout_marginLeft="72dp"
+        android:layout_marginStart="72dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/emailTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameTextView"
+        android:layout_alignRight="@+id/nameTextView"
+        android:layout_below="@+id/nameTextView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/phoneTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/emailTextView"
+        android:layout_alignStart="@+id/emailTextView"
+        android:layout_below="@+id/emailTextView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/deptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/listAvatarView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:text="TextView" />
+</RelativeLayout>

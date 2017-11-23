@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">InClass07</string>
+    <string name="departmentLabelText">Department</string>
+    <string name="sisText">SIS</string>
+    <string name="csText">CS</string>
+    <string name="bioText">BIO</string>
+    <string name="submitText">Submit</string>
+    <string name="nameLabelText">Name:</string>
+    <string name="emailLabelText">Email:</string>
+    <string name="nameHint">Name</string>
+    <string name="emailHint">Email</string>
+    <string name="department">Department: </string>
+
+    <string name="sis">SIS</string>
+    <string name="cs">CS</string>
+    <string name="bio">BIO</string>
+    <string name="submit">Submit</string>
+
+    <string name="nameFieldText">Name</string>
+    <string name="emailFieldText">Email</string>
+    <string name="departmentText">Department:</string>
+    <string name="sisRadioText">SIS</string>
+    <string name="cisRadioText">CIS</string>
+    <string name="bioRadioText">BIO</string>
+    <string name="avatarSelectText">Select your avatar</string>
+    <string name="deptText">Department:</string>
+    <string name="statusText">I am ___!</string>
+    <string name="nameText">name</string>
+    <string name="emailText">email</string>
+    <string name="deptViewText">dept</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="createButtonText">Create New Contact</string>
+    <string name="nameHintText">Name</string>
+    <string name="emailHintText">Email</string>
+    <string name="phoneHintText">Phone</string>
+</resources>
