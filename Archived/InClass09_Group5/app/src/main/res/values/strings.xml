@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">InClass09_Group5</string>
-    <string name="fname">First Name</string>
-    <string name="lname">Last Name</string>
-    <string name="email">Email</string>
-    <string name="choosePas">Choose Password</string>
-    <string name="repPass">Repeat Password</string>
-    <string name="password">Password</string>
-</resources>
